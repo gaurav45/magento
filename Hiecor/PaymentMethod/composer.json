@@ -1,0 +1,29 @@
+{
+    "name": "hiecor/paymentmethod",
+    "description": "Hiecor Payment integration for Magento",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Hiecor\\PaymentMethod\\": ""
+        }
+    },
+    "require": {
+        "php": "~5.6.0|~7.0.0||~7.1.0|~7.2.0|~7.3.0|~8.0.0",
+        "mageplaza/core-m2": "dev-master"
+    },
+    "authors": [
+    {
+      "name": "Hiecor",
+      "email": "hiecor@gmail.com",
+      "homepage": "https://hiecor.com/",
+      "role": "Leader"
+    }
+  ],    
+    
+}
